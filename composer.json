@@ -1,0 +1,15 @@
+{
+    "name": "ali-ishaq/jwt-token-generator",
+    "description": "Making a PLugin for Generating JWT token",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AliIshaq\\JwtTokenGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
